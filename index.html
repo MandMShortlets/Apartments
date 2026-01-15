@@ -66,6 +66,24 @@
       padding: 20px;
       font-size: 0.9rem;
     }
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  footer {
+    background: #111;
+    color: #fff;
+  }
+
+  /* PASTE HERE 👇 */
+  .gallery img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+  }
+</style>
   </style>
 </head>
 <body>
@@ -124,15 +142,15 @@
   </section>
 
 <!-- GALLERY SECTION -->
-<div class="section gallery">
-    <h2>Our Apartments Gallery</h2>
+<section class="gallery">
+  <h2>Our Apartments Gallery</h2>
 
-    <img src="Bedroom images.jpeg" alt="Bedroom">
-    <img src="kitchen Image.jpeg" alt="Kitchen">
-    <img src="living room image.jpeg" alt="Living Room">
-    <img src="living room images.jpeg" alt="Living Room View">
-    <img src="NetFlix and Chill.jpeg" alt="Entertainment Area">
-</div>
+  <img src="Bedroom images.jpeg" alt="Bedroom" loading="lazy">
+  <img src="kitchen Image.jpeg" alt="Kitchen" loading="lazy">
+  <img src="living room image.jpeg" alt="Living Room" loading="lazy">
+  <img src="living room images.jpeg" alt="Living Room View" loading="lazy">
+  <img src="NetFlix and Chill.jpeg" alt="Entertainment Area" loading="lazy">
+</section>
 
   
 
@@ -172,4 +190,5 @@
 </body>
 
 </html>
+
 
